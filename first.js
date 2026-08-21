@@ -20,8 +20,14 @@ console.log("a/b = ", a/b);
 console.log("a%b = ", a%b);
 console.log("a**b = ", a**b);
 
-// Unary Operators
+// Unary Operators (a++, a--)
 
 a = a+1;
 console.log(a)
 
+
+// Assigment Operators
+
+a += 5;
+
+console.log(a)
