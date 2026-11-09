@@ -67,18 +67,24 @@
 
 
         /// switch case statements
-        const role = 'Admin';
+        // const role = 'Admin';
 
-        switch(role) {
-            case 'Admin' : 
-            console.log('Welcome Admin');
-            break;
-            case 'User' :
-                console.log('Welcome User');
-                break;
-                case 'Guest' :
-                    console.log('Welcome Guest');
-                    break;
-                    default :
-                    console.log('Role not found');
-        }
+        // switch(role) {
+        //     case 'Admin' : 
+        //     console.log('Welcome Admin');
+        //     break;
+        //     case 'User' :
+        //         console.log('Welcome User');
+        //         break;
+        //         case 'Guest' :
+        //             console.log('Welcome Guest');
+        //             break;
+        //             default :
+        //             console.log('Role not found');
+        // }
+
+        /// ternary operator
+
+        const age = 22;
+        let message = age >= 18 ? 'adult' : 'minor';
+        console.log(message);
