@@ -54,13 +54,31 @@
 
         /// logical operators in conditional statements
 
-        const age = 24;
-        const knowsFlutter = true;
-        const knowsExperience = true;
+        // const age = 24;
+        // const knowsFlutter = true;
+        // const knowsExperience = true;
 
-        if(age >= 18 && knowsFlutter && knowsExperience){
-            console.log('you are eligible for flutter position');
-        }
-        else {
-            console.log('you are not eligilble for flutter position');
+        // if(age >= 18 && knowsFlutter && knowsExperience){
+        //     console.log('you are eligible for flutter position');
+        // }
+        // else {
+        //     console.log('you are not eligilble for flutter position');
+        // }
+
+
+        /// switch case statements
+        const role = 'Admin';
+
+        switch(role) {
+            case 'Admin' : 
+            console.log('Welcome Admin');
+            break;
+            case 'User' :
+                console.log('Welcome User');
+                break;
+                case 'Guest' :
+                    console.log('Welcome Guest');
+                    break;
+                    default :
+                    console.log('Role not found');
         }
