@@ -30,24 +30,37 @@
 
     /// nested if-else
 
-        const email = 'ismailcoder@gmail.com';
-        const password = '123456';
-        const isAccountActive = true;
+        // const email = 'ismailcoder@gmail.com';
+        // const password = '123456';
+        // const isAccountActive = true;
 
-        if(email === 'ismailcoder@gmail.com'){
-            if(password === '123456'){
-                if(isAccountActive){
-                    console.log('login successful');
-                }
-                else {
-                    console.log('login failed')
-                }
-            }
-            else {
-                console.log('password is incorrect');
-            }
-        }
-        else{
-            console.log('email not found');
-        }
+        // if(email === 'ismailcoder@gmail.com'){
+        //     if(password === '123456'){
+        //         if(isAccountActive){
+        //             console.log('login successful');
+        //         }
+        //         else {
+        //             console.log('login failed')
+        //         }
+        //     }
+        //     else {
+        //         console.log('password is incorrect');
+        //     }
+        // }
+        // else{
+        //     console.log('email not found');
+        // }
 
+
+        /// logical operators in conditional statements
+
+        const age = 24;
+        const knowsFlutter = true;
+        const knowsExperience = true;
+
+        if(age >= 18 && knowsFlutter && knowsExperience){
+            console.log('you are eligible for flutter position');
+        }
+        else {
+            console.log('you are not eligilble for flutter position');
+        }
